@@ -1,0 +1,6 @@
+<h1>Beer detail <%= @beer.name %></h1>
+<p>Votes: <%= @beer.votes %> </p>
+
+<form method="post" action="/beers/<%= @beer.id %>/upvote">
+  <button>Upvote</button>
+</form>

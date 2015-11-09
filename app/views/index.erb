@@ -1,0 +1,7 @@
+<h1>My Best Beers</h1>
+
+<ul>
+  <% @beers.each do |beer| %>
+    <li><a href="/beers/<%= beer.id %>"><%= beer.name %>, votes: <%= beer.votes %></a></li>
+  <% end %>
+</ul>
