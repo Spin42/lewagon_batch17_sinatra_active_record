@@ -13,4 +13,4 @@ Sinatra Demo
 
     $ ruby app.rb
 
-  Then open your browser at htt://localhost:4567
+  Then open your browser at http://localhost:4567
